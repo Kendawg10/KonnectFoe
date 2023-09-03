@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #8f8f8f;
-	font-family: 'Wendy One', sans-serif;
+	font-family: 'Bebas Neue', sans-serif;
 	font-size: 1.5em;
 	color: white;
 	text-align: center;
@@ -12,16 +12,22 @@ body {
     background: -webkit-linear-gradient(top, rgba(48,56,83,1) 0%,rgba(32,38,55,1) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, rgba(48,56,83,1) 0%,rgba(32,38,55,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#303853', endColorstr='#202637',GradientType=0 ); /* IE6-9 */
+    background-image: url('../image/foes2.jpg');
+    background-repeat: repeat;
 }
 
 .konnect {
     padding-top: 25px;
-    color: #be0404;
+    color: #white;
+    text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px
 }
 
 .kendall {
     font-size: 1em;
     padding-top: 1.8em;
+    color: white;
+    text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
 }
 
 #game-scene {
@@ -31,7 +37,7 @@ body {
 }
 
 .table {
-    background-color: #645a7e;
+    background-color: none;
     z-index: 10;
     width: 100%;
     position: fixed;
@@ -40,7 +46,7 @@ body {
 
 .restart-btn {
     width: 200px;
-	background-color: #645a7e;
+	background-color: #ff0000a7;
 	border-radius: 8px;
     color: #fff;
 	padding: 25px;
@@ -52,13 +58,13 @@ body {
 	z-index: 200;
 	cursor: pointer;
 	border: none;
-    font-family: 'Wendy One', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 25px;
 }
 
 #begin-game {
 	width: 200px;
-	background-color: #645a7e;
+	background-color: #ff0000a7;
 	border-radius: 8px;
     color: #fff;
 	padding: 25px;
@@ -70,7 +76,7 @@ body {
 	z-index: 200;
 	cursor: pointer;
 	border: none;
-    font-family: 'Wendy One', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 25px;
 }
 
@@ -79,7 +85,7 @@ body {
 	position: relative;
 	width: 548px;
 	margin: 0 auto;
-	border: 8px solid #5FCF80;
+	border: 8px solid #646257;
 	height: 472px;
 	border-radius: 7px;
 	float: left;
@@ -140,14 +146,20 @@ circle {
     width: 20px;
     height: 350px;
     margin: 0 auto;
-    background-color: #e59a13;
+    background-color: #030301ff;
     border-radius: 5px 5px 0px 0px;
 }
+/* CSS HEX */
+/* --ash-gray: #B4BDA4ff;
+--ebony: #5F5C4Aff;
+--black: #030301ff;
+--coyote: #7D644Aff;
+--reseda-green: #76765Dff; */
 
 .stand-attachment {
     width: 15px;
     height: 20px;
-    background-color: #e59a13;
+    background-color: #030301ff;
     position: absolute;
     top: 15px;
 }
@@ -162,7 +174,7 @@ circle {
 
 .stand-foot {
     width: 100%;
-    background-color: #e59a13;
+    background-color: #030301ff;
     height: 20px;
     border-radius: 8px 8px 0px 0px;
     top: 350px;
